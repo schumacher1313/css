@@ -1,0 +1,106 @@
+body {
+    background-color: antiquewhite;
+    color: darkolivegreen;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fotka{
+    width: 250px;
+    border-radius: 40%;
+    box-shadow: 4px 4px 16px
+} 
+.info {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+@media (max-widht: 700px) {
+    .info {
+        display: block;
+    }
+}
+.info-text {
+    margin-left: 25px;
+}
+.container {
+    width: max 750 px;
+    padding-top: 30px;
+}
+a {
+    color: darkolivegreen;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: palevioletred;
+}
+a:visited {
+    color: gray;
+}
+.card {
+    padding: 15px 20px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.bg-hui{
+    background: rgb(188, 201, 142);
+}
+.contact h4 {
+    text-align: center;
+}
+.form-group label {
+    display:block;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    padding: 15px 0 10px;
+    color: black;
+    font-family: inherit;
+}
+.form-group textarea {
+   margin-top: 15px;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+.btn {
+padding: 15px 20px;
+background: rgb(188, 201, 142);
+border: none;
+border-radius: 15%;
+margin: 15px;
+color: darkolivegreen;
+font-family: inherit;
+font-size: 14px;
+font-weight: bolder;
+cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0,6;
+}
+
+.position {
+    border: 4px solid black;
+    margin-top: 40px;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    background: lightgreen;
+}
